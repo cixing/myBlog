@@ -11,7 +11,8 @@ title: 添加SSH密钥对
 ``` bash
 $ cd ~/.ssh
 ```
-2. 生成命令如下，邮箱用自已的就行。
+2. 生成命令如下，邮箱用自已的就行.
+
 ``` bash
 $ ssh-keygen -t rsa -C "XXXXX@XXX.com"
 ```
@@ -24,6 +25,6 @@ $ ssh-keygen -t rsa -C "XXXXX@XXX.com"
 此时github还无法识别使用哪一个私钥，若有config文件夹，修改
 ``` bash
 Host github.com
- IdentityFile ~/.ssh/github_id_rsa
+IdentityFile ~/.ssh/github_id_rsa
 ```
 此时就可以使用git clone直接拉取git仓库代码了，若使用https方式，每次都需要输入github的密码。
