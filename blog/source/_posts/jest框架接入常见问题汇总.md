@@ -1,7 +1,7 @@
 ---
 title: jest框架接入常见问题汇总
 date: 2021-06-13 16:15:09
-tags: 前端 测试 jest
+tags: jest
 ---
 
 * import/require引入模块时找不到对应文件模块，报错信息通常为：Cannot find module XXX from XXX

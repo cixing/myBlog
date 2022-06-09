@@ -1,7 +1,7 @@
 ---
 title: webpack可视化分析包大小
 date: 2021-06-13 16:36:55
-tags: 前端 webpack
+tags: webpack
 ---
 ## 使用webpack在线工具分析webpack包的大小
 1. 生成统计文件 stats.json
